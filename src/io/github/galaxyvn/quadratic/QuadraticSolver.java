@@ -1,7 +1,9 @@
+package io.github.galaxyvn.quadratic;
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Main {
+public class QuadraticSolver {
     private double a;
     private double b;
     private double c;
@@ -97,10 +99,10 @@ public class Main {
     }
 
     /**
-     * Main method to run the solver.
+     * io.github.galaxyvn.quadratic.Main method to run the solver.
      */
     public static void main(String[] args) {
-        Main solver = new Main();
+        QuadraticSolver solver = new QuadraticSolver();
         solver.input();
         solver.solve();
         solver.displayResults();
